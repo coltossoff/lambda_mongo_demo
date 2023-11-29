@@ -11,9 +11,10 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true, 
     "isolatedModules": true,     /* Visit https://aka.ms/tsconfig to read more about this file */
-    "rootDir": "./",                                  /* Specify the root folder within your source files. */
+    // "rootDir": "./",                                  /* Specify the root folder within your source files. */
     "baseUrl": "../",                                  /* Specify the base directory to resolve non-relative module names. */
     "outDir": "./dist"                                   /* Specify an output folder for all emitted files. */
   },
-  "exclude": ["../node_modules", "**/*.test.ts"]
+  "exclude": ["../node_modules", "**/*.test.ts"],
+  "include": ["./*.ts"]
 }
