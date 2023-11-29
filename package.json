@@ -1,0 +1,17 @@
+{
+  "name": "lambdas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.461.0",
+    "@types/aws-lambda": "^8.10.129",
+    "mongodb": "6.3",
+    "tsc": "^2.0.4"
+  }
+}
